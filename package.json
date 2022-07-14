@@ -1,0 +1,23 @@
+{
+  "name": "apimsgwhatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "http": "0.0.1-security",
+    "middleware": "^1.0.0",
+    "moment-timezone": "^0.5.33",
+    "node": "^15.8.0",
+    "puppeteer": "^9.0.0",
+    "venom-bot": "^3.0.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "pm2-runtime index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

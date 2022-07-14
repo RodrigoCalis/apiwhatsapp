@@ -1,0 +1,14 @@
+  version: "3.8"
+
+  services: 
+    app: 
+      image: api-msgwhatsapp:v1.0.0
+      build: .
+      restart: "always"  
+      command: npm start
+      container_name: apimsgwhatsapp
+      ports: 
+      - "49001:49001"
+      volumes:
+      - .:/usr/src/app
+  
